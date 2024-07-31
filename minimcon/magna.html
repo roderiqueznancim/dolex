@@ -1,0 +1,17 @@
+<!-- 
+The identity content transition class, which indicates that 
+content changes without any transition effect.
+-->
+<style>
+.identity-transition {
+    transition: none;
+}
+</style>
+
+<div id="contentContainer" class="identity-transition">
+    <!-- Content goes here -->
+</div>
+
+<script>
+document.getElementById('contentContainer').innerHTML = 'New Content';
+</script>
